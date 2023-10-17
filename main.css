@@ -1,0 +1,116 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply some basic styles to the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Style the main content area */
+  main {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  /* Style the landing area */
+  #landing {
+    background-image: url('https://source.unsplash.com/De8wMYoSSBc');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    color: #fff; /* Text color added */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #landing h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  #landing h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Style the header in the "images" section */
+  #header {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #header h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style individual image captions */
+  .caption {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .caption h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .caption p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    main {
+      margin: 10px;
+    }
+  }
+  
